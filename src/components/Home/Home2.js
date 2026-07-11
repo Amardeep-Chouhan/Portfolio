@@ -12,23 +12,18 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+             <p className="home-about-body" style={{ textAlign: "justify" }}>
               I’m a Software Engineer who loves transforming ideas into
               reliable, scalable products. Over time, I’ve explored several
               technologies and found my passion in building high-performance
               systems and intuitive user experiences.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Node.js, and Typescript{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
+              Through my internships at <i>
+                <b className="purple">{" "} Django Softwares Pvt. Ltd. and Crystaltech Services Pvt. Ltd.</b> </i>, I gained hands-on experience in backend development,<i>
+                <b className="purple">{" "}API integration, database management, authentication systems, debugging, testing, and performance optimization </b> </i> . Working with development teams helped me strengthen my understanding of clean code practices, collaboration, and building reliable software solutions.
+              <br/>
+              <br/>
               My key areas of interest include developing
               <i>
                 <b className="purple">
@@ -46,7 +41,9 @@ function Home2() {
                 <b className="purple">Next.js</b>.
               </i>
             </p>
+
           </Col>
+         
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
