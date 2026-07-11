@@ -20,8 +20,8 @@ function Home2() {
               <br />
               <br />
               Through my internships at <i>
-                <b className="purple">{" "} Django Softwares Pvt. Ltd. and Crystaltech Services Pvt. Ltd.</b> </i>, I gained hands-on experience in backend development,<i>
-                <b className="purple">{" "}API integration, database management, authentication systems, debugging, testing, and performance optimization </b> </i> . Working with development teams helped me strengthen my understanding of clean code practices, collaboration, and building reliable software solutions.
+                <b className="purple">{" "} Django Softwares Pvt. Ltd. and Crystaltech Services Pvt. Ltd.</b> </i>, I gained hands-on experience in <i>
+                <b className="purple">{" "}backend development, API integration, database management, authentication systems, debugging, testing, and performance optimization </b> </i> . Working with development teams helped me strengthen my understanding of clean code practices, collaboration, and building reliable software solutions.
               <br/>
               <br/>
               My key areas of interest include developing
