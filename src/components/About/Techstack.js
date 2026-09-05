@@ -14,6 +14,7 @@ import Redux from "../../Assets/TechIcons/Redux.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import Redis from "../../Assets/TechIcons/Redis.svg";
 
 function Techstack() {
   return (
@@ -28,7 +29,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">Typescript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
@@ -37,6 +38,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Redis} alt="redis" />
+        <div className="tech-icons-text">Redis</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="mongoDb" />
