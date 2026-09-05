@@ -6,7 +6,7 @@ import github from "../../Assets/Projects/githubanalyzer.png";
 import datalens from "../../Assets/Projects/datalens.png";
 import codemeet from "../../Assets/Projects/CodeMeet.png";
 import Trovato from "../../Assets/Projects/Trovato.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import AuthEngine from "../../Assets/Projects/AuthEngine.png";
 import linkup from "../../Assets/Projects/linkup.png";
 
 function Projects() {
@@ -68,11 +68,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={AuthEngine}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Auth-Engine"
+              description="AuthEngine is a production-style authentication backend built with Node.js, Express.js, MongoDB, and JWT. It includes email OTP verification, rate limiting, session management, refresh-token rotation, secure HTTP-only cookies, and multi-device logout.
+"
+              ghLink="https://github.com/Amardeep-Chouhan/Auth-Engine"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
