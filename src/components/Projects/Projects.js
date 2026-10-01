@@ -50,8 +50,8 @@ function Projects() {
               title="CodeMeet"
               description="Developed a scalable full-stack technical interview platform supporting real-time video interviews, collaborative coding, secure code execution, live chat, and automated feedback.
               Implemented authentication, REST APIs, asynchronous background jobs, and optimized data fetching using React, Node.js, Express.js, MongoDB, Clerk, TanStack Query, Stream, and Inngest."
-              ghLink=""
-              demoLink=""              
+              ghLink="https://github.com/Amardeep-Chouhan/CodeMeet---Remote-Interview-Platform"
+              //demoLink=""              
             />
           </Col>
 
@@ -61,8 +61,8 @@ function Projects() {
               isBlog={false}
               title="GitHub Profile Analyzer"
               description="GitHub Profile Analyzer API is a backend REST API built with Node.js, Express.js, and MySQL that fetches public GitHub profiles, analyzes repository and developer activity, computes meaningful insights, and stores the processed data for fast querying. The API integrates with the GitHub REST API v3 using Axios, leverages Aiven MySQL for cloud database hosting, is deployed on Render, and follows backend best practices with Helmet, CORS, and rate limiting to ensure security, reliability, and scalability."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/Amardeep-Chouhan/Github-Profile-Analyser-"
+              demoLink="https://github-profile-analyser-jji1.onrender.com/"
             />
           </Col>
 
