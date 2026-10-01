@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import codegecko from "../../Assets/Projects/codegecko.png";
 import github from "../../Assets/Projects/githubanalyzer.png";
 import datalens from "../../Assets/Projects/datalens.png";
 import codemeet from "../../Assets/Projects/CodeMeet.png";
@@ -21,6 +22,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={codegecko}
+              isBlog={false}
+              title="CodeGecko - AI Code Review Platform"
+              description="CodeGecko is an AI-powered code review platform that automatically analyzes GitHub pull requests and delivers contextual, actionable feedback. It uses Gemini, RAG, and event-driven workflows to identify code issues, improve review efficiency, and help developers ship better code faster.
+"
+              ghLink="https://github.com/Amardeep-Chouhan/CodeGecko---Code-Review-Platform"
+              demoLink="https://coderabbit-flame.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Trovato}
