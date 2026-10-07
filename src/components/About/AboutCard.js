@@ -15,7 +15,7 @@ function AboutCard() {
             I'm a {" "}
             <span className="purple">Full-Stack Web Developer</span>
             <span> with hands-on experience building scalable,production-ready web applications using {" "}</span>
-            <span className="purple">React, Node.js,TypeScript,PostgreSQL,and MongoDB.</span>.
+            <span className="purple">React, Node.js, Next.js, TypeScript, PostgreSQL, and MongoDB.</span>.
             <br />
             <br />I hold a Bachelor's degree in
             <span className="purple"> Information Technology (IoT) </span> from{" "}
